@@ -1,11 +1,12 @@
 import { Col, Row } from "react-bootstrap"
 import { StoreItem } from "../components/StoreItem"
 import storeItems from "../data/items.json"
+import "./store.css"
 
 export function Store() {
   return (
     <>
-      <h1>Store</h1>
+      <h3>Store</h3>
       <Row md={2} xs={1} lg={3} className="g-3">
         {storeItems.map(item => (
           <Col key={item.id}>

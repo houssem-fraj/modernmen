@@ -8,6 +8,7 @@ import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 
 function App() {
   return (
+   
     <ShoppingCartProvider>
       <Navbar />
       <Container className="mb-4">
