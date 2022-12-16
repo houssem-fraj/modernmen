@@ -25,7 +25,7 @@ router.put("/:id", async (req, res) => {
     } else { res.status(401).json("you can update only your account") }
 })
 
-// Delete user with all his posts
+
 
 router.delete("/:id", async (req, res) => {
     if (req.body.userId === req.params.id) {

@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  color: aqua;
+  color: rgb(19, 21, 21);
   
   }
   h2{
@@ -39,6 +39,17 @@ body {
 
     color: blueviolet;
   }
+  .home{
+
+
+background-color: rgb(228, 147, 40);
+
+  }
+  .about{
+
+    background-color:rgb(228, 147, 40);
+  }
+ 
 
 
   

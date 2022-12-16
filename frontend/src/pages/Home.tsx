@@ -1,6 +1,11 @@
 export function Home(){
     
-    return <h1>
+   
+   
+   
+   
+   
+   return  <div className="home"><h1>
 Welcome To MODERN MEN 
-</h1>
+</h1></div>
 }
